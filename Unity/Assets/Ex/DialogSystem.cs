@@ -20,6 +20,8 @@ public class DialogSystem : MonoBehaviour
     public float typingSpeed = 0.1f;
     private bool isTypingEffect = false;
 
+    public Entity_Dialogue entity_dialouge;
+
 
     private void SetActiveObjects(SpeakerUI speaker, bool visible)
     {
@@ -66,6 +68,26 @@ public class DialogSystem : MonoBehaviour
     private void Awake()
     {
       SetAllClose();
+       if(dialogsDB)
+        {
+            Array.Clear(dialogs, 0, dialogs.Length);
+            Array.Resize(ref dialogs, entity_dialouge.sheets[0].list.Count);
+
+            int ArrayCursor = 0;
+            
+            foreach(Entity_Dialogue.Param param in entity_dialouge.sheets[0].list)
+            {
+                dialogs[ArrayCursor].index = param.index;
+                dialogs[ArrayCursor].speakerUIindex = param.speakerUlindex;
+                dialogs[ArrayCursor].name = param.name;
+                dialogs[ArrayCursor].dialogue = param.dialogue;
+                dialogs[ArrayCursor].characterPath = param.characterPath;
+                dialogs[ArrayCursor].tweenType = param.tweenType;
+                dialogs[ArrayCursor].nextindex = param.nextindex;
+
+                ArrayCursor += 1;
+            }
+        }
     }
 
     public bool UpdateDialog(int currentIndex, bool InitType)
@@ -121,11 +143,10 @@ public class DialogSystem : MonoBehaviour
                 dialogs[currentDialogIndex].dialogue.Substring(0, index);
             index++;
             yield return new WaitForSeconds(typingSpeed);
-
-            isTypingEffect = false;
-
-            speakers[currentSpeakerIndex].objectArrow.SetActive(true);
         }
+
+        isTypingEffect = false;
+        speakers[currentSpeakerIndex].objectArrow.SetActive(true);
     }
 }
 

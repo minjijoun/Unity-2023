@@ -234,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224, y: -147}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -7, y: -165}
+  m_SizeDelta: {x: 510.48, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &411848110
 CanvasRenderer:
@@ -337,10 +337,11 @@ MonoBehaviour:
     tweenType: 0
     nextindex: 3
   DialogInit: 1
-  dialogsDB: 0
+  dialogsDB: 1
   currentDialogIndex: -1
   currentSpeakerIndex: 0
   typingSpeed: 0.1
+  entity_dialouge: {fileID: 11400000, guid: ac26680dfb0981d4eae63bf9959081a4, type: 2}
 --- !u!4 &686094019
 Transform:
   m_ObjectHideFlags: 0
