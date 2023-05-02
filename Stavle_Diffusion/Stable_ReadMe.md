@@ -67,3 +67,26 @@ Debug.Log(test);
 -[x] Todo1
 -[] Todo2
 -[] Todo3
+
+<!!-- Geading-->
+
+
+
+# inpaint_Object
+![image](https://github.com/minjijoun/Unity-2023/tree/main/Stavle_Diffusion/inpaint_Object)
+
+# inpaint_face
+![image] (https://github.com/minjijoun/Unity-2023/blob/main/Stavle_Diffusion/inpant_face/00009-189154182.png?raw=true)
+
+# Keyword List 
+![image](https://github.com/minjijoun/Unity-2023/tree/main/Stavle_Diffusion/Keyword%20List)
+
+# i2img List
+![image](https://github.com/minjijoun/Unity-2023/tree/main/Stavle_Diffusion/i2img)
+
+# Scribble
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/8891a3f628ec59da49cf98419d7763971d0a7fe2/Stavle_Diffusion/ControlNet/00003-2119712087.png)
+
+# Suffle
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/8891a3f628ec59da49cf98419d7763971d0a7fe2/Stavle_Diffusion/ControlNet/00012-2900858115.png)
+
