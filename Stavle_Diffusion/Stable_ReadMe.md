@@ -90,3 +90,25 @@ Debug.Log(test);
 # Suffle
 ![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/8891a3f628ec59da49cf98419d7763971d0a7fe2/Stavle_Diffusion/ControlNet/00012-2900858115.png)
 
+# pix2pix
+
+
+# Tile
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/Tile_B.png)
+
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/Tile_A.png)
+
+# depth
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/1-3.png)
+
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/1-2.png)
+
+# seg
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/2-3.png)
+
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/2-2.png)
+
+# Openpose
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/3-3.png)
+
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/3-2.png)
