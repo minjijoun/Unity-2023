@@ -109,6 +109,12 @@ Debug.Log(test);
 ![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/2-2.png)
 
 # Openpose
-![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/3-3.png)
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/ff7e2c65dd09f5c7f78462019775fbc4776e9198/Stavle_Diffusion/ControlNet/20220227080404311-2026570154.png)
 
-![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/6eb6eb1b906f1d36598e3019475589f24a389681/Stavle_Diffusion/ControlNet/3-2.png)
+# Reginal Promepter
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/ff7e2c65dd09f5c7f78462019775fbc4776e9198/Stavle_Diffusion/ControlNet/20220227080404321-4022272192.png)
+
+# Reginal Promepter(widldcard)
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/8e9fdade69d9d12ec78b9dee68897fb11e536c09/Stavle_Diffusion/ControlNet/20220227080404326-3460435325.png)
+
+![image](https://raw.githubusercontent.com/minjijoun/Unity-2023/8e9fdade69d9d12ec78b9dee68897fb11e536c09/Stavle_Diffusion/ControlNet/20220227080404330-1989051555.png)
